@@ -1,4 +1,4 @@
-# Input
+# In
 km_per_år = 10000  # Antall kjørte kilometer per år (du kan endre denne verdien)
 
 # Kostnader
