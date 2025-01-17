@@ -1,4 +1,4 @@
-#3: Fra grader til radianer
+# 3: Fra grader til radianer
 import numpy as np
 
 v_grad = float(input("Skriv inn gradtallet: "))
