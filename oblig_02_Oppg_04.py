@@ -1,4 +1,4 @@
-#4a: Opprette dictionary
+# 4a: Opprette dictionary
 data = {
     "Norge": {"hovedstad": "Oslo", "innbyggere": 0.634},
     "Italia": ["Roma", 2.873],
@@ -9,8 +9,7 @@ data = {
 
 print("Dictionary 'data' er opprettet.")
 
-#4b: Skriv in land
-# Oppgave 4b: Søke etter et land i dictionaryen
+# 4b: Skriv in land
 land = input("Skriv inn et land (f.eks. England): ").capitalize()
 
 if land in data:
@@ -20,7 +19,7 @@ if land in data:
 else:
     print(f"Beklager, informasjon om {land} finnes ikke i dictionaryen.")
 
-#4c: Legge til nytt land
+# 4c: Legge til nytt land
 nytt_land = input("Skriv inn et nytt land: ").capitalize()
 hovedstad = input(f"Skriv inn hovedstaden i {nytt_land}: ")
 innbyggere = float(input(f"Skriv inn antall innbyggere (i mill.) i {hovedstad}: "))
